@@ -1,0 +1,37 @@
+.selection-container {
+    width: 250px;
+    height: 50px;
+    background-color: #9AADBF;
+    display: flex;
+    align-items: center;
+}
+
+.ship {
+    background-color: #0A0D10;
+}
+
+.carrier-selection {
+    width: 50px;
+    height: 10px;
+    margin: 3px;
+}
+.battleship-selection {
+    width: 40px;
+    height: 10px;
+    margin: 3px;
+}
+.cruiser-selection {
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+.submarine-selection {
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+.destroyer-selection {
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+}

@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>BattleShip</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>BattleShip</h1>
+    <div class="game-info">
+      <p>Turn: <span id="turn-display"></span></p>
+      <p>Status: <span id="status-display"></span></p>
+    </div>
+    <div id="gameboard-container"></div>
+    <div class="selection-container">
+      <div class="ship carrier-selection" draggable="true"></div>
+      <div class="ship battleship-selection" draggable="true"></div>
+      <div class="ship cruiser-selection" draggable="true"></div>
+      <div class="ship submarine-selection" draggable="true"></div>
+      <div class="ship destroyer-selection" draggable="true"></div>
+    </div>
+    <button id="rotate-btn">ROTATE</button>
+    <button id="start-btn">START</button>
+    
     <script src="bundle.js"></script>
   </body>
 </html>
