@@ -1,38 +1,34 @@
 .selection-container {
     width: 650px;
-    height: 60px;
+    height: 180px;
     background-color: #CDC392;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.ship {
+.carrier, .battleship, .cruiser, .submarine, .destroyer {
     background-color: #0A0D10;
+    height: 30px;
+
 }
 
 .carrier-selection {
-    width: 50px;
-    height: 10px;
+    width: 150px;
     margin: 3px;
 }
+
 .battleship-selection {
-    width: 40px;
-    height: 10px;
+    width: 120px;
     margin: 3px;
 }
-.cruiser-selection {
-    width: 30px;
-    height: 10px;
+.cruiser-selection, .submarine-selection{
+    width: 90px;
     margin: 3px;
 }
-.submarine-selection {
-    width: 30px;
-    height: 10px;
-    margin: 3px;
-}
+
 .destroyer-selection {
-    width: 20px;
-    height: 10px;
+    width: 60px;
     margin: 3px;
 }
 
@@ -47,4 +43,17 @@
     width: 300px;
     height: 300px;
     background-color:#2D7DD2;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.cell {
+    height: 30px;
+    width: 30px;
+    border: black 1px solid;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
 }
